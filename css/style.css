@@ -130,3 +130,19 @@ html {
     font-weight: 400;
 }
 
+button {
+    background-color: #6b6d6d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 3px 6px rgb(49, 49, 49), 0 3px 6px rgb(46, 46, 46)
+}
+
+
